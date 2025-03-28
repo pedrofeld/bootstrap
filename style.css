@@ -1,0 +1,24 @@
+.linhaAzul{
+    background-color: blue;
+    height: 60px;
+}
+
+.linhaVerde{
+    background-color: green;
+    height: 60px;
+}
+
+.linhaVermelha{
+    background-color: red;
+    height: 60px;
+}
+
+.linhaPreta{
+    background-color: black;
+    height: 60px;
+}
+
+.linhaBranca{
+    background-color: white;
+    height: 60px;
+}

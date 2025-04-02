@@ -27,3 +27,8 @@
     height: 300px; /* ajuste para a altura desejada */
     object-fit: cover; /* mantém a proporção da imagem */
 }
+
+.accordion-button:focus {
+    box-shadow: none;
+    background-color: transparent !important;
+  }

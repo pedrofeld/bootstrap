@@ -2,6 +2,10 @@ body {
     padding-top: 60px;
 }
 
+:target {
+    scroll-margin-top: 60px;
+}
+
 .linhaAzul{
     background-color: blue;
     height: 60px;

@@ -1,6 +1,6 @@
-# Projeto de Testes de Recursos em Desenvolvimento Web
+# Projeto de Testes de Recursos
 
-Este projeto foi criado como parte do curso de Desenvolvimento Web Full Stack da Growdev. O objetivo principal é testar e aplicar conceitos avançados de front-end aprendidos durante o programa.
+Este projeto foi criado como parte do curso de Desenvolvimento Web Full Stack da Growdev. O objetivo principal é testar e aplicar conceitos avançados de front-end aprendidos durante a aprendizagem.
 
 ## Descrição do Projeto
 
@@ -41,8 +41,8 @@ Desenvolvido originalmente em português com funcionalidades básicas, este proj
 
 3. Abra o projeto no seu ambiente preferido:
 
-Para testes locais, abra index.html no seu navegador. <br>
-Para desenvolvimento, abra a pasta no seu editor de código
+- Para testes locais, abra index.html no seu navegador.
+- Para desenvolvimento, abra a pasta no seu editor de código
 
 ### Como Usar
 
@@ -52,19 +52,19 @@ Este projeto serve como ambiente de teste para vários recursos de desenvolvimen
 
 - Exemplos de Estilização: Revise implementações CSS3 incluindo:
 
-        - Layouts Flexbox/Grid
+    - Layouts Flexbox/Grid
 
-        - Animações e transições
+    - Animações e transições
 
-        - Padrões de design responsivo
+    - Padrões de design responsivo
 
-        - Funcionalidades JavaScript: Teste componentes interativos como:
+- Funcionalidades JavaScript: Teste componentes interativos como:
 
-        - Validação de formulários
+    - Validação de formulários
 
-        - Manipulação do DOM
+    - Manipulação do DOM
 
-        - Tratamento de eventos
+    - Tratamento de eventos
 
 ### Para desenvolvedores:
 
@@ -90,7 +90,6 @@ raiz-do-projeto/ <br>
 ├── index.html                          # Página principal<br>
 ├── style.css                           # Folhas de estilo<br>
 └── script.js                           # Arquivo JavaScript<br>
-
 
 ### Licença
 

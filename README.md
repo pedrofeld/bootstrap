@@ -29,7 +29,7 @@ Desenvolvido originalmente em português com funcionalidades básicas, este proj
 
 ### Instalação
 
-1. Clone o repositório:
+1. Clone o repositório: <br>
 `
     bash
     git clone https://github.com/seu-usuario/seu-repositorio.git
@@ -41,8 +41,8 @@ Desenvolvido originalmente em português com funcionalidades básicas, este proj
 
 3. Abra o projeto no seu ambiente preferido:
 
-- Para testes locais, abra index.html no seu navegador.
-- Para desenvolvimento, abra a pasta no seu editor de código
+    - Para testes locais, abra index.html no seu navegador.
+    - Para desenvolvimento, abra a pasta no seu editor de código
 
 ### Como Usar
 
@@ -66,17 +66,6 @@ Este projeto serve como ambiente de teste para vários recursos de desenvolvimen
 
     - Tratamento de eventos
 
-### Para desenvolvedores:
-
-javascript <br>
-`
-    // Exemplo da estrutura de código implementada
-    function exemploRecurso(parametro) { <br>
-    // Código claro e comentado <br>
-    const resultado = parametro * 2; <br>
-    return resultado; <br>
-    }
-`
 ### Estrutura do Projeto
 
 raiz-do-projeto/ <br>

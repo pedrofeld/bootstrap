@@ -1,43 +1,43 @@
-const form = document.getElementById("meuForm");
+const form = document.getElementById("myForm");
+const themeButton = document.getElementById("themeButton");
+const themeIcon = document.getElementById("themeIcon");
+let currentTheme = "light";
 
 form.addEventListener('submit', event => {
-    event.preventDefault()
-    form.classList.add('was-validated')
+    event.preventDefault();
+    form.classList.add('was-validated');
+    
     if (!form.checkValidity()) {
-        alert("Campos inválidos, por favor verifique!")
-    } else{
-        const inputEmail = document.getElementById("email")
-        const inputSenha = document.getElementById("password")
+        alert("Invalid fields, please check your inputs!");
+    } else {
+        const inputEmail = document.getElementById("inputEmail");
+        const inputPassword = document.getElementById("inputPassword");
 
-        const usuario = {
+        const user = {
             email: inputEmail.value,
-            senha: inputSenha.value,
+            password: inputPassword.value,
         };
 
-        console.log(usuario)
+        console.log(user);
     }
 });
 
-const btnTheme = document.getElementById("btn-theme");
-const icone = document.getElementById("icone-tema");
-let temaAtual = "light";
-
-btnTheme.addEventListener("click", () => {
-    switch(temaAtual){
+themeButton.addEventListener("click", () => {
+    switch(currentTheme) {
         case "light":
-            temaAtual = "dark";
+            currentTheme = "dark";
             document.body.setAttribute("data-bs-theme", "dark");
-            icone.setAttribute("class", "bi bi-sun-fill");
-            btnTheme.classList.remove("btn-dark");
-            btnTheme.classList.add("btn-light");
+            themeIcon.setAttribute("class", "bi bi-sun-fill");
+            themeButton.classList.remove("btn-dark");
+            themeButton.classList.add("btn-light");
             break;
 
         case "dark":
-            temaAtual = "light";
-            document.body.setAttribute("data-bs-theme", "light");
-            icone.setAttribute("class", "bi bi-moon-stars-fill");
-            btnTheme.classList.remove("btn-light");
-            btnTheme.classList.add("btn-dark");
+            currentTheme = "light";
+            document.body.removeAttribute("data-bs-theme");
+            themeIcon.setAttribute("class", "bi bi-moon-stars-fill");
+            themeButton.classList.remove("btn-light");
+            themeButton.classList.add("btn-dark");
             break;
     }
 });

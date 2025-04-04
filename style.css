@@ -6,34 +6,34 @@ body {
     scroll-margin-top: 60px;
 }
 
-.linhaAzul{
+.blueLine {
     background-color: blue;
     height: 60px;
 }
 
-.linhaVerde{
+.greenLine {
     background-color: green;
     height: 60px;
 }
 
-.linhaVermelha{
+.redLine {
     background-color: red;
     height: 60px;
 }
 
-.linhaPreta{
+.blackLine {
     background-color: black;
     height: 60px;
 }
 
-.linhaBranca{
+.whiteLine {
     background-color: white;
     height: 60px;
 }
 
-.carousel-inner img{
-    height: 300px; /* ajuste para a altura desejada */
-    object-fit: cover; /* mantém a proporção da imagem */
+.carousel-inner img {
+    height: 300px;
+    object-fit: cover; /* maintain image aspect ratio */
 }
 
 .accordion-button:focus {

@@ -41,7 +41,7 @@ Desenvolvido originalmente em português com funcionalidades básicas, este proj
 
 3. Abra o projeto no seu ambiente preferido:
 
-Para testes locais, abra index.html no seu navegador
+Para testes locais, abra index.html no seu navegador. <br>
 Para desenvolvimento, abra a pasta no seu editor de código
 
 ### Como Usar
@@ -68,38 +68,38 @@ Este projeto serve como ambiente de teste para vários recursos de desenvolvimen
 
 ### Para desenvolvedores:
 
-javascript
+javascript <br>
 `
     // Exemplo da estrutura de código implementada
-    function exemploRecurso(parametro) {
-    // Código claro e comentado
-    const resultado = parametro * 2;
-    return resultado;
+    function exemploRecurso(parametro) { <br>
+    // Código claro e comentado <br>
+    const resultado = parametro * 2; <br>
+    return resultado; <br>
     }
 `
 ### Estrutura do Projeto
 
-raiz-do-projeto/
-│
-├── assets/                             # Recursos de mídia
-│   ├── imagens/                        # Arquivos de imagem
-│   └── libs/                           # Fontes personalizadas
-│       ├── bootstrap-5.33              # CSS e JS do Framework Bootstrap
-│       └── bootstrap-icons-1.11.3      # Ícones do Framework Bootstrap
-├── README.md                           # Documentação do projeto
-├── index.html                          # Página principal
-├── style.css                           # Folhas de estilo
-└── script.js                           # Arquivo JavaScript
+raiz-do-projeto/ <br>
+│<br>
+├── assets/                             # Recursos de mídia<br>
+│   ├── imagens/                        # Arquivos de imagem<br>
+│   └── libs/                           # Fontes personalizadas<br>
+│       ├── bootstrap-5.33              # CSS e JS do Framework Bootstrap<br>
+│       └── bootstrap-icons-1.11.3      # Ícones do Framework Bootstrap<br>
+├── README.md                           # Documentação do projeto<br>
+├── index.html                          # Página principal<br>
+├── style.css                           # Folhas de estilo<br>
+└── script.js                           # Arquivo JavaScript<br>
 
 
 ### Licença
 
 Este projeto está licenciado sob a Licença MIT - uma licença de software livre permissiva que impõe restrições mínimas na reutilização. Pontos principais:
 
-✅ Livre para usar, modificar e distribuir
-✅ Pode ser usado em software proprietário
-✅ Requer apenas a preservação do aviso de copyright e termos da licença
-❌ Não oferece garantias ou responsabilidades
+✅ Livre para usar, modificar e distribuir<br>
+✅ Pode ser usado em software proprietário<br>
+✅ Requer apenas a preservação do aviso de copyright e termos da licença<br>
+❌ Não oferece garantias ou responsabilidades<br>
 
 O texto completo da licença está disponível no arquivo LICENSE.
 
